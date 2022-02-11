@@ -1,7 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 
-const usersRouter = require('./users-router.js');
+const usersRouter = require('./routers/users-router.js');
+// const registerRouter = require('./routers/register-router.js');
+// const loginRouter = require('./routers/login-router.js');
+
 
 const server = express();
 
